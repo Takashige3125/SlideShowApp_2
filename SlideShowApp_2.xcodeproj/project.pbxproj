@@ -13,6 +13,10 @@
 		64D9A25E25EE68870065F678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D9A25C25EE68870065F678 /* Main.storyboard */; };
 		64D9A26025EE68880065F678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D9A25F25EE68880065F678 /* Assets.xcassets */; };
 		64D9A26325EE68880065F678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D9A26125EE68880065F678 /* LaunchScreen.storyboard */; };
+		64D9A27025EE770F0065F678 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D9A26F25EE770F0065F678 /* ResultViewController.swift */; };
+		64D9A27325F1B0A20065F678 /* image0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64D9A27225F1B0A20065F678 /* image0.jpeg */; };
+		64D9A27625F1B0C60065F678 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64D9A27525F1B0C60065F678 /* image1.jpeg */; };
+		64D9A27925F1B0CF0065F678 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64D9A27825F1B0CF0065F678 /* image2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		64D9A25F25EE68880065F678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D9A26225EE68880065F678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64D9A26425EE68880065F678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D9A26F25EE770F0065F678 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		64D9A27225F1B0A20065F678 /* image0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpeg; sourceTree = "<group>"; };
+		64D9A27525F1B0C60065F678 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpeg; path = "../../../../Downloads/アプリに使った画像/image1.jpeg"; sourceTree = "<group>"; };
+		64D9A27825F1B0CF0065F678 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +67,13 @@
 				64D9A25625EE68870065F678 /* AppDelegate.swift */,
 				64D9A25825EE68870065F678 /* SceneDelegate.swift */,
 				64D9A25A25EE68870065F678 /* ViewController.swift */,
+				64D9A26F25EE770F0065F678 /* ResultViewController.swift */,
 				64D9A25C25EE68870065F678 /* Main.storyboard */,
 				64D9A25F25EE68880065F678 /* Assets.xcassets */,
+				64D9A27225F1B0A20065F678 /* image0.jpeg */,
 				64D9A26125EE68880065F678 /* LaunchScreen.storyboard */,
+				64D9A27525F1B0C60065F678 /* image1.jpeg */,
+				64D9A27825F1B0CF0065F678 /* image2.jpeg */,
 				64D9A26425EE68880065F678 /* Info.plist */,
 			);
 			path = SlideShowApp_2;
@@ -126,6 +138,9 @@
 			files = (
 				64D9A26325EE68880065F678 /* LaunchScreen.storyboard in Resources */,
 				64D9A26025EE68880065F678 /* Assets.xcassets in Resources */,
+				64D9A27925F1B0CF0065F678 /* image2.jpeg in Resources */,
+				64D9A27325F1B0A20065F678 /* image0.jpeg in Resources */,
+				64D9A27625F1B0C60065F678 /* image1.jpeg in Resources */,
 				64D9A25E25EE68870065F678 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 				64D9A25B25EE68870065F678 /* ViewController.swift in Sources */,
 				64D9A25725EE68870065F678 /* AppDelegate.swift in Sources */,
 				64D9A25925EE68870065F678 /* SceneDelegate.swift in Sources */,
+				64D9A27025EE770F0065F678 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
